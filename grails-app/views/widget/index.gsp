@@ -50,7 +50,7 @@
             <h1>Browse our widgets!</h1>
             <ul>
             <g:each in="${widgets}">
-                <li>Name: ${it.name}</li>
+                <li>Name: ${it.name} Creator of the widget: ${it.createdBy}  Parts in the widget: ${it.parts}</li>
             </g:each>
             </ul>
         </section>
